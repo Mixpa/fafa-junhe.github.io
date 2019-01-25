@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/custom/tanks/pziv_ausfg"
+	"$bumpmap" "models/custom/tanks/pziv_ausfg_nm"
+	"$surfaceprop" "Metal"
+	"$nocull" 1
+}
