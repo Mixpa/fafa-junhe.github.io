@@ -1,0 +1,8 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/custom\tanks/Hummel_track"
+	"$bumpmap" "models/custom\tanks/Hummel_track_NM"
+	"$surfaceprop" "Metal"
+	"$nocull" 1
+    "$alphatest" 1
+}
