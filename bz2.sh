@@ -10,8 +10,3 @@ bzip2 -d CNAME.bz2
 git add . 
 git commit -m "upload"
 git push origin master
-curl -X POST "https://api.cloudflare.com/client/v4/zones/a953cb5955153627c0e3312d13beb584/purge_cache" \
-     -H "X-Auth-Email: 842355358@qq.com" \
-     -H "X-Auth-Key: 8f2dcec3c7c6928530f9f8fcc1899228c162c" \
-     -H "Content-Type: application/json" \
-     --data '{"purge_everything":true}'
