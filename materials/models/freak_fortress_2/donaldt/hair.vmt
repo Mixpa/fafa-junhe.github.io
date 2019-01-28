@@ -1,0 +1,17 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "freak_fortress_2\donaldt\trumpHair_albedo"
+		"$bumpmap" "freak_fortress_2\donaldt\trumpHair_normals"
+	
+	$lightwarptexture "freak_fortress_2\donaldt\lightwarp_hair"
+	$phongwarptexture "freak_fortress_2\donaldt\phongwarp_hair"
+
+	$phong	1
+	$phongboost	7.5
+	$phongexponent	5
+	$phongtint	"[.8 .7 .4]"
+	$phongfresnelranges	"[.35 .25 0]"
+		"$color2"			"[0 0 0]"
+	"$blendTintByBaseAlpha"		"1"
+	"$nodecal" "1"
+}
