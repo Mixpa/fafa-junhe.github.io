@@ -1,0 +1,15 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models/custom/daimler/daimler_blue"
+	"$surfaceprop"	"metal"
+
+
+	"$basemapalphaphongmask" 1
+
+
+	"$phong"	"1"
+	"$phongboost"	"1"
+	"$phongexponent"	"20"
+	"$lightwarptexture" "models\lightwarps\weapon_lightwarp"
+	"$phongfresnelranges"    "[1 2 5]"
+}

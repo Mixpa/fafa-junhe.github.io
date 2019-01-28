@@ -1,0 +1,7 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/custom/tanks/e-75_red"
+	"$bumpmap" "models/custom/tanks\E-75_NM"
+	"$surfaceprop" "Metal"
+	"$nocull" 1
+}
