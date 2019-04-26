@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "freak_fortress_2\donaldt\trumpClothing_albedo"
+		"$bumpmap" "freak_fortress_2\donaldt\trumpClothing_normals"
+	"$phong" "1"
+	"$phongexponent" "5"
+	"$phongboost" ".65"	
+	"$lightwarptexture" "freak_fortress_2\donaldt\pyro_lightwarp"
+	"$phongfresnelranges"	"[.5 .5 8]"
+	"$halflambert" "0"
+	"$color2"			"[0 0 0]"
+	"$blendTintByBaseAlpha"		"1"
+	// Rim lighting parameters
+	"$rimlight" "1"												// To enable rim lighting (requires phong)
+	"$rimlightexponent" "4"										// Exponent for phong component of rim lighting	
+	"$rimlightboost" ".75"
+$nocull 1
+}

@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\custom/tanks\marder_iii_red"
+        "$bumpmap"     "models\custom/tanks\Marder_III_NM" 
+}
