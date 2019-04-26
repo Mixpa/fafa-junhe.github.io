@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\custom/tanks\Hetzer_track"
+        "$bumpmap"     "models\custom/tanks\Hetzer_track_NM" 
+}
