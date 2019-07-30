@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "freak_fortress_2\whity\zp_sv1_pants"
+	"$surfaceprop" "flesh"
+
+	"Proxies"
+	{
+		"ZombieVision"
+		{
+			"resultVar"	"$selfillumtint"
+		}
+	}
+}

@@ -1,0 +1,17 @@
+"VertexlitGeneric"
+{
+"$basetexture" "freak_fortress_2/terminator/shared/eye-iris-Terminator"
+"$frame" "9"
+"$selfillum" "1"
+"$selfillumtint" "[1 0 0]"
+
+"Proxies"
+{
+"AnimatedTexture"
+{
+"animatedTextureVar" "$basetexture"
+"animatedTextureFrameNumVar" "$frame"
+"animatedTextureFrameRate" "3" //this is the FPS that the texture will animate at
+}
+}
+}

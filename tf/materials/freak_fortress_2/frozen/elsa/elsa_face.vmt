@@ -1,0 +1,6 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "freak_fortress_2/frozen/elsa/elsa_face"
+	"$normalmap" "freak_fortress_2/frozen/elsa/elsa_face_n"
+	"$nocull" 1
+}
