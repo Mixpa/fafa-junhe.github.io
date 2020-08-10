@@ -1,0 +1,23 @@
+<html>
+<head>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.js"></script>
+<script>
+$(document).ready(function(){
+
+
+$.get("https://api.github.com/repos/fafa-junhe/fafa-junhe.github.io/git/trees/master?recursive=1", function(data, status){
+for (i = 0; i < data.tree.length; i++) {
+console.log(data.tree[i]["path"]);
+$("#list").append("<a href='https://raw.githubusercontent.com/fafa-junhe/fafa-junhe.github.io/master/"+data.tree[i]["path"]+"'>"+data.tree[i]["path"]+"</a>  <a href=https://dl.jymc.top/"+data.tree[i]["path"]+">线路2</a><br>");
+}
+
+});
+});
+</script>
+</head>
+<body>
+善用ctrl +f 搜索功能
+<div id="list">
+
+</div>
+</body>
